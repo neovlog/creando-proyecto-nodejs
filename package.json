@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "build": "",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": ""
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "NEO-DEV",
